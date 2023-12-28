@@ -1,0 +1,11 @@
+<h1>Enter the text:</h1>
+
+<input #Amountfield type = "text">
+
+<button (click)="AcceptAmount (Amountfield.value)">submit</button>
+
+<h1 [class] = "'Update'">
+    {{Value}}
+</h1>
+
+<h2 >Entered Amount is :{{Value}}</h2>
